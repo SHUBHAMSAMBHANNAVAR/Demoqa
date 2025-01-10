@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demoqa.Testcases.BookStoreApplicationTestcase_06">
+      <class name="com.demoqa.Testcases.ElementsTestcase_01">
         <methods>
-          <include name="genrateReport"/>
-          <include name="EvenListner"/>
           <include name="quitDriver"/>
+          <include name="eventListener"/>
+          <include name="generateReport"/>
           <include name="setup"/>
           <include name="initialization"/>
-          <include name="BookStore"/>
+          <include name="Elements" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.demoqa.Testcases.BookStoreApplicationTestcase_06 -->
+      </class> <!-- com.demoqa.Testcases.ElementsTestcase_01 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
